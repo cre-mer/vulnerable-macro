@@ -1,0 +1,10 @@
+[package]
+name = "clueless-import"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dangerous-proc-macro-lib = { path = "../dangerous_proc_macro_lib" }
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = { version = "2.0", features = ["full"] }

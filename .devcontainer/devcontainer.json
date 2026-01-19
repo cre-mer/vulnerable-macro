@@ -1,0 +1,20 @@
+{
+    "name": "Rust Development",
+    "dockerFile": "Dockerfile",
+    "workspaceFolder": "/workspaces/vulnerable-macro",
+    "features": {
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    }
+}
